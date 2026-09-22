@@ -8,3 +8,12 @@ for(let i=arr.length-1; i>=0 ; i-- ){
     }
 }
 
+let obj = {
+    name : "asjat",
+    age :98,
+    occupation:"software developer",
+    city:"pune",
+    state:"maharashtra" 
+}
+obj.freeze()
+obj.age=95
