@@ -1,18 +1,8 @@
-function outer(){
-    let count=0 
-    return function inner(){
-        count++
-        console.log(count)
-    }
-}
 
-let result = outer()
-result()
-result()
 
-function name (){
-    return function name2(){
-        console.log("asjat")
-    }
-}
-console.log(name())
+let arr =[1,2,3,4,5,6,6]
+let result =arr.forEach((arr) => {
+    console.log(arr)
+});
+
+console.log(result)
