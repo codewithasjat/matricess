@@ -1,8 +1,17 @@
 
 
-let arr =[1,2,3,4,5,6,6]
-let result =arr.forEach((arr) => {
-    console.log(arr)
-});
 
+let students = [
+  { name: "Asjat", marks: 80 },
+  { name: "Rahul", marks: 65 },
+  { name: "Om", marks: 90 }
+];
+
+let result = students.map((element)=>{
+    return{
+        name : element.name,
+        marks : element.marks+5
+    }
+      
+})
 console.log(result)
