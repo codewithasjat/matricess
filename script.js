@@ -1,9 +1,15 @@
-let result = function greet(){
-    return name 
+
+
+function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    console.log(count);
+  };
 }
 
- console.log(result(name))
-function name(a,b){
- return a+b
-}
-name(5,7)
+let result = outer();
+
+result();
+result();
