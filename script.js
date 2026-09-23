@@ -1,21 +1,9 @@
-
-
-let a =25 
-var b =26
-const c = 90 ;
-
-function outer(){
-let a =90
-let name1 = "asjat"
-    function inner(){
-       console.log(a)
-    }
- inner()
+let result = function greet(){
+    return name 
 }
-console.log(name1)
 
-outer()
-{
-    var name2 = 34
+ console.log(result(name))
+function name(a,b){
+ return a+b
 }
-console.log(name2)
+name(5,7)
