@@ -1,19 +1,21 @@
-let arr =[[1,2,3],[4,5,6],[7,8,9]]
 
-for(let i=arr.length-1; i>=0 ; i-- ){
-    for (let j=arr[0].length-1 ; j>=0 ; j--){
-        
-            console.log(arr[i][j])
-    
+
+let a =25 
+var b =26
+const c = 90 ;
+
+function outer(){
+let a =90
+let name1 = "asjat"
+    function inner(){
+       console.log(a)
     }
+ inner()
 }
+console.log(name1)
 
-let obj = {
-    name : "asjat",
-    age :98,
-    occupation:"software developer",
-    city:"pune",
-    state:"maharashtra" 
+outer()
+{
+    var name2 = 34
 }
-obj.freeze()
-obj.age=95
+console.log(name2)
