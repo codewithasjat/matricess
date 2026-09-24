@@ -8,10 +8,10 @@ let students = [
 ];
 
 let result = students.map((element)=>{
-    return{
+   
+    return {
         name : element.name,
-        marks : element.marks+5
+        marks :element.marks+5
     }
-      
 })
 console.log(result)
